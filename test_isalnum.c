@@ -30,8 +30,8 @@ void test_isalnum()
     for (int i = 0; i < num_tests; i++)
     {
         int test_char = test_values[i];
-        int expected = isalnum(test_char) ? 1 : 0;    // Reference result
-        int result = ft_isalnum(test_char);   // Test function result
+        int expected = isalnum(test_char) ? 1 : 0;
+        int result = ft_isalnum(test_char);
 
         char test_name[50];
         if (test_char >= 32 && test_char <= 126)
