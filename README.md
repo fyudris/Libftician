@@ -1,5 +1,3 @@
-# Libftician
-
 # Libtarian: Your Ultimate Libft Testing Sidekick
 
 Welcome to Libtarian — a collection of testing files created to help you navigate the labyrinth of the libft evaluation. With this mighty tool by your side, you'll slay the challenges of Libft like a testing wizard! ✨🧙‍♂️ 
