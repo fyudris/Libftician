@@ -13,25 +13,36 @@ In short: It's like a test suite, but cooler. Libtarian is a folder full of test
 
 ## How to Use Libtarian
 
-***1. Clone the Repository / Download Libtarian***
+**1. Clone the Repository / Download Libtarian**
 Download or clone Libtarian into your libft project folder. Make sure the structure looks like this:
 ```
-- libft/
-|---Libtarian/
+libft/
+├── ft_isalpha.c
+├── ...      
+├── libft.h              
+├── Makefile
+├── Libtarian
 ```
-***2. Build and Run All Tests***
+**2. Build and Run All Tests**
 Run all tests with the following spell (er, command):
-```make run```
 ```
-***3. Run Individual Test***
+make run
+```
+
+**3. Run Individual Test**
 Got a specific function you're interested in? Run this command:
-```make run_test_<function name>
+```
+make run_test_<function name>
 
 // example
-mae run_test_isalpha
+make run_test_isalpha
 ```
-Be sure to run the make or make run command beforehand to build everything!
+Be sure to run the `make` or `make run` command beforehand to build everything!
 
-***4. Clean Up***
+**4. Clean Up**
 When you’re done testing, clean up your with:
-```make clean```
+```
+make clean
+```
+
+
